@@ -3,10 +3,14 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Nathan Saritzky'
-SITENAME = 'Nathan Saritzky'
+SITENAME = 'Slowly, and for a Long Time'
 SITEURL = ''
 
+THEME = 'theme/'
+
 PATH = 'content'
+
+STATIC_PATHS = ['images', 'static']
 
 TIMEZONE = 'America/Los_Angeles'
 
@@ -20,14 +24,12 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Greenamer', 'https://www.greenamer.com'),
+		('Green Lake Running Group', 'https://www.meetup.com/Seattle-Greenlake-Running-Group/'),
+		('Seattle Go Center', 'http://www.seattlego.org'))
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'https://github.com/nsaritzky'),)
 
 DEFAULT_PAGINATION = False
 
