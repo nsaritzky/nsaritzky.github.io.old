@@ -1,5 +1,6 @@
 Title: About Me
+sortorder: 1
 
-This is an about page. It is very informative.
+## I'm Nathan Saritzky, a programmer, problem solver, runner, and lapsed mathematician.
 
-Do you not feel informed?
+fdf
