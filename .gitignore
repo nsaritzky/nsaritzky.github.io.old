@@ -2,3 +2,4 @@ output/*
 site.sublime*
 srv.pid
 pelican.pid
+output/
