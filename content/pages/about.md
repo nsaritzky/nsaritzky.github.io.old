@@ -1,6 +1,6 @@
 Title: About
 sortorder: 1
-URL: 
+URL: index.html
 save_as: index.html
 
 ## I'm Nathan Saritzky, a programmer, problem solver, runner, and lapsed mathematician.
