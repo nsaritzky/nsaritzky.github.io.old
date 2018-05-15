@@ -10,11 +10,11 @@
         {% endif %}
 
         {% if article.authors %}
-        <address class="vcard author">
+     <!--    <address class="vcard author">
                 By {% for author in article.authors %}
                         <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
                 {% endfor %}
-        </address>
+        </address> -->
         {% endif %}
 <p>In <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>.</p>
 {% include 'taglist.html' %}
